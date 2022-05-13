@@ -12,4 +12,4 @@ Learning React Basics:
 - React works with a virtual DOM. React maintains the Real DOM by checking the virtual DOM and make changes accordingly. Maintaining a virtual DOM is cheap to create. 
   - The benefit of this is we don't have to attach event handlers and stuff. It is called React because it reacts to the state change. 
 
- 
+
