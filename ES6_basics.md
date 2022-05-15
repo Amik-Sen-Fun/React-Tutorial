@@ -109,7 +109,21 @@ const combined = {...first, ...second, location: 'Australia'};
 ```
 
 ### Classes
+ To increase usability of code we write classes in JS. They are defined as:
 
+```js
+class Person{
+	constructor(name){
+		this.name = name;
+	}
+	walk(){
+		console.log("walk");
+	}
+}
+
+// defining a class object
+const person = new Person("Amik");
+```
 
 ### Inheritance
 
