@@ -90,4 +90,28 @@ const {street : st} = address; // renames street as st and takes street value of
 
 ### Spread Operator
 
+- Merging Array
 
+```js
+const first = [1,2,3];
+const second = [4,5,6];
+
+const clone = [...first, 'a', ...second];
+const combined = first.concat(second);
+```
+
+- Merging objects
+
+```js
+const first = {name: 'Mosh'};
+const second = {job: 'Instructor'};
+const combined = {...first, ...second, location: 'Australia'};
+```
+
+### Classes
+
+
+### Inheritance
+
+
+### Modules
